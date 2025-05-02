@@ -13,49 +13,49 @@ _Level up your project workflow with labels, templates, milestones, and issue-po
 
 </header>
 
-## Step 2: Adding a Label
+## Step 3: Creating and Assigning a Milestone
 
-Now that you've created an issue, let's learn how to **categorize and prioritize** it using labels!
+Now that your issue is labeled, it’s time to **track progress over time** using milestones!
 
-### 🏷️ What is a label?
+### 📅 What is a Milestone?
 
-Labels help you organize, sort, and quickly understand issues in a project. You can use labels to mark issues as `bug`, `enhancement`, `documentation`, or even custom categories like `good first issue` or `high priority`.
+A **milestone** groups issues and pull requests into a larger goal or release. It’s useful for planning sprints, managing versions, and tracking deadlines across multiple tasks.
 
-They’re also great for automating workflows—GitHub Actions can respond to labels being added or removed!
-
----
-
-### :keyboard: Task: Add a label to your Issue
-
-Let’s walk through how to create and apply a label to your issue:
-
-#### ✅ Step 1: Navigate to your Issue
-1. Click on the **Issues** tab in your repository.
-2. Select the issue you just created in Step 1.
-
-#### 🏷️ Step 2: Add an existing label
-1. On the right sidebar of the issue page, click the **Labels** dropdown.
-2. Select a label that best describes your issue.
-   - Example: `bug`, `feature`, or `help wanted`
-
-#### ✨ Optional: Create a new label
-If you don’t see a label you want:
-1. Click the **Labels** tab in the repository navigation (next to Issues).
-2. Click **New label**.
-3. Fill in the label name, description, and pick a color.
-4. Click **Create label**.
-5. Return to your issue and apply your new label.
+For example, you might create a milestone called `v1.0 Launch` and assign all relevant issues to it.
 
 ---
 
-### 🎯 Why This Matters
+### :keyboard: Task: Create and Assign a Milestone
 
-Using labels helps your team:
-- Prioritize what to work on first
-- Understand issue type at a glance
-- Automate workflows and organize sprints
+#### ✅ Step 1: Create a Milestone
+1. In your repository, click the **Issues** tab.
+2. Click the **Milestones** tab (next to Labels).
+3. Click **New milestone**.
+4. Fill in:
+   - **Title**: Give it a name (e.g., `v1.0` or `Week 1 Goals`)
+   - **Description** *(optional)*: Briefly describe the goal of the milestone.
+   - **Due date** *(optional)*: Select a deadline if applicable.
+5. Click **Create milestone**.
 
-Once you’ve labeled your issue, you're one step closer to mastering issue management! 🙌
+#### 📌 Step 2: Assign the Milestone to Your Issue
+1. Go back to your previously created issue.
+2. On the right sidebar, click the **Milestone** dropdown.
+3. Select the milestone you just created.
+
+#### 📌 Step 3: Comment "finished" on the issue
+
+---
+
+### 💡 Why Milestones Matter
+
+Milestones help you:
+- Track progress toward larger goals
+- Manage multiple issues within a sprint or project phase
+- View completion rates for a set of issues
+
+Milestones keep teams aligned and projects on schedule 🚀
+
+---
 
 <footer>
 
